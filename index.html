@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- EDITAR: añadir la ciudad real en title y description (máx. ~60 y ~155 caracteres) -->
+<title>Restaurante de cocina fusión | Sabor Urbano</title>
+<meta name="description" content="Cocina de autor con alma local: técnicas europeas e ingredientes de la zona. Reserva tu mesa en Sabor Urbano por WhatsApp o teléfono.">
+<link rel="canonical" href="https://www.EJEMPLO.com/">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#1C1C1C">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231C1C1C'/%3E%3Ctext x='16' y='23' font-size='20' text-anchor='middle' fill='%23D4AF37' font-family='Georgia,serif'%3ES%3C/text%3E%3C/svg%3E">
+<meta property="og:type" content="restaurant.restaurant">
+<meta property="og:locale" content="es_ES">
+<meta property="og:title" content="Sabor Urbano | Donde la tradición se reinventa">
+<meta property="og:description" content="Cocina de autor con alma local. Reserva tu mesa.">
+<meta property="og:url" content="https://www.EJEMPLO.com/">
+<!-- EDITAR: añadir og:image (1200x630) con foto real del plato signature -->
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Restaurant","name":"Sabor Urbano","url":"https://www.EJEMPLO.com/","telephone":"+34600000000","servesCuisine":["Fusión","Cocina de autor"],"acceptsReservations":"True"}
+</script>
+<!-- EDITAR: añadir address y openingHoursSpecification al JSON-LD con los datos reales -->
+<style>
+:root{--bk:#1C1C1C;--au:#D4AF37;--cr:#FFFEF7;--cr2:#F3F0E2;--ol:#708238;--olt:#566324;--wa:#0E7A3E;--err:#B3261E;
+--serif:"Playfair Display","Iowan Old Style",Georgia,"Times New Roman",serif;
+--sans:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{margin:0;font:1.0625rem/1.7 var(--sans);color:var(--bk);background:var(--cr);padding-bottom:72px}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--au);outline-offset:3px}
+.wrap{width:min(1120px,100% - 2.5rem);margin-inline:auto}
+h1,h2,h3{font-family:var(--serif);line-height:1.15;margin:0 0 .5em;font-weight:700}
+h1{font-size:clamp(2.6rem,8vw,5rem)}
+h2{font-size:clamp(2rem,5vw,3rem)}
+h3{font-size:1.3rem}
+p{margin:0 0 1em;max-width:62ch}
+section{padding:6rem 0}
+.dk{background:var(--bk);color:var(--cr)}
+.alt{background:var(--cr2)}
+.skip{position:absolute;left:-999px;top:0;background:var(--au);color:var(--bk);padding:.7rem 1rem;z-index:100}
+.skip:focus{left:0}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:.7rem 1.7rem;font:inherit;font-weight:700;text-decoration:none;border:2px solid transparent;cursor:pointer;border-radius:2px;transition:transform .2s,background .2s,box-shadow .2s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 6px 16px rgba(0,0,0,.25)}
+.btn-au{background:var(--au);color:var(--bk)}
+.btn-au:hover{background:#E2C25A}
+.btn-out{border-color:var(--cr);color:var(--cr);background:transparent}
+.btn-dk{background:var(--bk);color:var(--cr)}
+.btn-wa{background:var(--wa);color:#fff}
+header{position:sticky;top:0;z-index:50;background:var(--bk);color:var(--cr);border-bottom:1px solid #3a3a3a}
+.bar{display:flex;align-items:center;justify-content:space-between;min-height:76px;transition:min-height .25s}
+header.min .bar{min-height:54px}
+.brand{font-family:var(--serif);font-size:1.5rem;font-weight:700;text-decoration:none;color:var(--au)}
+nav ul{display:none;list-style:none;margin:0;padding:0;gap:1.8rem}
+nav a{text-decoration:none;padding:.5rem 0;display:inline-block}
+nav a:hover{color:var(--au)}
+.menu-btn{background:none;border:2px solid var(--cr);color:var(--cr);min-height:46px;min-width:46px;cursor:pointer;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:5px}
+.menu-btn i{display:block;width:22px;height:2px;background:currentColor;transition:transform .25s,opacity .2s}
+.menu-btn[aria-expanded="true"] i:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.menu-btn[aria-expanded="true"] i:nth-child(2){opacity:0}
+.menu-btn[aria-expanded="true"] i:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+nav.open ul{display:flex;flex-direction:column;position:absolute;left:0;right:0;top:100%;background:var(--bk);padding:.5rem 1.25rem 1rem;border-bottom:1px solid #3a3a3a}
+nav.open li a{padding:.8rem 0;width:100%}
+@media(min-width:900px){.menu-btn{display:none}nav ul{display:flex}body{padding-bottom:0}.mobile-bar{display:none!important}}
+.hero{position:relative;min-height:calc(100svh - 76px);display:flex;align-items:center;color:var(--cr);text-align:center;background:linear-gradient(rgba(28,28,28,.55),rgba(28,28,28,.55)),radial-gradient(circle at 30% 30%,#4a4a2a,#1C1C1C 70%)}
+/* EDITAR: foto real del plato signature: sustituir el radial-gradient por url(foto.webp) */
+.hero .wrap{padding:4rem 0 6rem}
+.hero p{font-size:1.3rem;margin-inline:auto}
+.hero h1{text-shadow:0 2px 16px rgba(0,0,0,.5)}
+.acts{display:flex;flex-wrap:wrap;gap:.9rem;justify-content:center;margin-top:1.8rem}
+.scroll{position:absolute;bottom:1.5rem;left:50%;translate:-50% 0;width:48px;height:48px;display:flex;align-items:center;justify-content:center;color:var(--au);text-decoration:none;font-size:1.6rem;animation:bob 1.8s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(8px)}}
+.cols{display:grid;gap:3rem;align-items:center}
+@media(min-width:820px){.cols{grid-template-columns:1fr 1fr}}
+.ph{background:linear-gradient(135deg,#3a3a2a,#707a4a);display:flex;align-items:center;justify-content:center;color:var(--cr);text-align:center;padding:1rem;font-size:.9rem}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;list-style:none;padding:0;margin:2rem 0 0}
+.stats b{display:block;font:700 2.2rem var(--serif);color:var(--olt)}
+.stats span{font-size:.9rem}
+.tabs{display:flex;flex-wrap:wrap;gap:.6rem;margin:0 0 2rem}
+.tabs button{min-height:48px;padding:0 1.4rem;font:inherit;font-weight:600;background:transparent;border:2px solid var(--bk);color:var(--bk);cursor:pointer}
+.tabs button[aria-pressed="true"]{background:var(--bk);color:var(--au)}
+.dish{display:flex;align-items:baseline;gap:.6rem;padding:1rem 0;border-bottom:1px solid #cfc9b0;max-width:720px}
+.dish .t{flex:1}
+.dish h3{margin:0;font-size:1.2rem}
+.dish p{margin:.2rem 0 0;color:#4a4a4a;font-size:.95rem}
+.dish .p{font:700 1.15rem var(--serif);white-space:nowrap}
+.tag{display:inline-block;margin-left:.4rem;padding:0 .4rem;border:1px solid var(--olt);color:var(--olt);font:600 .72rem var(--sans);vertical-align:middle}
+.note{font-size:.9rem;color:#4a4a4a;margin-top:1.2rem}
+.grid3{display:grid;gap:1.4rem;list-style:none;margin:0;padding:0}
+@media(min-width:700px){.grid3{grid-template-columns:repeat(3,1fr)}}
+.grid3 .ph{aspect-ratio:4/3;margin-bottom:.8rem}
+.masonry{columns:1;gap:.8rem}
+@media(min-width:820px){.masonry{columns:3}}
+.g{display:block;width:100%;margin:0 0 .8rem;padding:0;border:0;cursor:zoom-in;position:relative;overflow:hidden;break-inside:avoid;background:none}
+.g .ph{width:100%;transition:transform .4s}
+.g:hover .ph,.g:focus-visible .ph{transform:scale(1.05)}
+.g::after{content:"⤢";position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:2rem;color:#fff;background:rgba(28,28,28,.45);opacity:0;transition:opacity .25s}
+.g:hover::after,.g:focus-visible::after{opacity:1}
+dialog{background:var(--bk);color:var(--cr);border:2px solid var(--au);width:min(900px,94vw);padding:1rem}
+dialog::backdrop{background:rgba(0,0,0,.85)}
+#lbC .ph{min-height:55vh}
+.resv{background:linear-gradient(rgba(28,28,28,.7),rgba(28,28,28,.7)),radial-gradient(circle at 70% 20%,#5a6a2a,#1C1C1C 70%)}
+/* EDITAR: foto de fondo real del comedor */
+.card{background:var(--cr);color:var(--bk);padding:2rem;max-width:640px;margin-inline:auto;box-shadow:0 20px 50px rgba(0,0,0,.4)}
+form{display:grid;gap:1rem}
+.row2{display:grid;gap:1rem}
+@media(min-width:560px){.row2{grid-template-columns:1fr 1fr}}
+label{display:block;font-weight:600;margin-bottom:.3rem}
+input,select,textarea{width:100%;min-height:48px;padding:.65rem .8rem;font:inherit;color:var(--bk);background:#fff;border:2px solid #6b6b6b;border-radius:2px}
+textarea{min-height:90px;resize:vertical}
+input[aria-invalid="true"],select[aria-invalid="true"]{border-color:var(--err)}
+.err{color:var(--err);font-size:.9rem;min-height:1.2em;margin:.2rem 0 0}
+.check{display:flex;gap:.6rem;align-items:flex-start;font-weight:400}
+.check input{width:24px;min-height:24px;flex:none;margin-top:.2rem}
+.hp{position:absolute;left:-9999px;height:0;overflow:hidden}
+#estado{display:none;padding:1rem}
+#estado.ok{display:block;background:#E3F1E8;color:#0B4F28;animation:pop .4s}
+#estado.ko{display:block;background:#FBE6E4;color:#7A1812}
+@keyframes pop{from{opacity:0;transform:scale(.94)}}
+.rev{position:relative;max-width:720px;margin-inline:auto;text-align:center}
+.slide{display:none}.slide.on{display:block;animation:pop .5s}
+.slide blockquote{font:italic 1.4rem/1.5 var(--serif);margin:0 0 1rem}
+.rc{display:flex;gap:.6rem;justify-content:center;margin:1.4rem 0}
+.rc button{min-height:48px;min-width:48px;font:inherit;font-size:1.2rem;background:transparent;border:2px solid var(--au);color:var(--au);cursor:pointer}
+.map{width:100%;height:340px;border:0;background:#e4e0cd;display:flex;align-items:center;justify-content:center}
+address{font-style:normal}
+footer{background:var(--bk);color:#d8d5c8;padding:3.5rem 0 2rem;font-size:.95rem}
+footer h3{color:var(--au);font-size:1.15rem}
+footer ul{list-style:none;margin:0;padding:0}
+footer li a{display:inline-block;padding:.3rem 0}
+.fcols{display:grid;gap:2rem;margin-bottom:2rem}
+@media(min-width:800px){.fcols{grid-template-columns:repeat(3,1fr)}}
+.fb{border-top:1px solid #3a3a3a;padding-top:1.2rem}
+.mobile-bar{position:fixed;left:0;right:0;bottom:0;z-index:60;display:grid;grid-template-columns:1fr 1fr 1fr;gap:1px;background:#3a3a3a;padding-bottom:env(safe-area-inset-bottom,0)}
+.mobile-bar a{display:flex;align-items:center;justify-content:center;min-height:56px;text-decoration:none;font-weight:700;color:#fff;background:var(--bk)}
+.mobile-bar .w{background:var(--wa)}.mobile-bar .r{background:var(--au);color:var(--bk)}
+html.js .fx{opacity:0;transform:translateY(24px);transition:opacity .7s,transform .7s}
+html.js .fx.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}html.js .fx{opacity:1;transform:none}}
+</style>
+<script>document.documentElement.className="js"</script>
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+<header id="hd">
+  <div class="wrap bar">
+    <a class="brand" href="#inicio">Sabor Urbano</a>
+    <nav id="nav" aria-label="Principal">
+      <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="menuList" aria-label="Abrir menú"><i></i><i></i><i></i></button>
+      <ul id="menuList">
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#menu">Menú</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#reservas">Reservas</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="contenido">
+<section class="hero" id="inicio">
+  <div class="wrap">
+    <h1>Donde la tradición se reinventa</h1>
+    <p>Cocina de autor con alma local</p>
+    <div class="acts">
+      <a class="btn btn-au" href="#reservas">Reserva tu mesa</a>
+      <a class="btn btn-out" href="#menu">Ver menú</a>
+    </div>
+  </div>
+  <a class="scroll" href="#nosotros" aria-label="Ir a Sobre nosotros">↓</a>
+</section>
+
+<section id="nosotros">
+  <div class="wrap cols fx">
+    <div>
+      <h2>Una cocina con raíces</h2>
+      <!-- EDITAR: historia real del restaurante -->
+      <p>Sabor Urbano mezcla técnicas europeas con ingredientes locales. Cada plato parte de un producto de la zona y lo cuenta de otra manera.</p>
+      <p>Cocinamos con tiempo, con proveedores cercanos y con respeto por la receta de siempre. Queremos que la mesa sea un sitio para quedarse.</p>
+      <!-- EDITAR: nombre y trayectoria del chef, foto real -->
+      <p><strong>Chef ejecutivo:</strong> nombre y trayectoria del chef.</p>
+      <!-- EDITAR: cifras reales (años, premios, clientes) o borrar. No publicar premios que no existan -->
+      <ul class="stats"><li><b>10</b><span>años de cocina</span></li><li><b>3</b><span>reconocimientos</span></li><li><b>+5.000</b><span>comensales al año</span></li></ul>
+    </div>
+    <div class="ph" role="img" aria-label="Foto del chef en la cocina" style="aspect-ratio:4/5">Foto del chef (EDITAR)</div>
+  </div>
+</section>
+
+<section id="menu" class="alt">
+  <div class="wrap fx">
+    <h2>Menú</h2>
+    <!-- EDITAR: platos, descripciones y precios reales. Con IVA incluido -->
+    <div class="tabs" role="group" aria-label="Categorías del menú">
+      <button type="button" data-t="e" aria-pressed="true">Entradas</button>
+      <button type="button" data-t="p" aria-pressed="false">Platos fuertes</button>
+      <button type="button" data-t="d" aria-pressed="false">Postres</button>
+      <button type="button" data-t="b" aria-pressed="false">Bebidas</button>
+    </div>
+    <div id="m-e">
+      <div class="dish"><div class="t"><h3>Crema de calabaza asada <span class="tag" title="Vegetariano">VEG</span></h3><p>Calabaza local, aceite de oliva y semillas tostadas.</p></div><span class="p">9,00 €</span></div>
+      <div class="dish"><div class="t"><h3>Tartar de temporada <span class="tag" title="Picante">PICANTE</span></h3><p>Corte a cuchillo, cítricos y guindilla suave.</p></div><span class="p">14,00 €</span></div>
+    </div>
+    <div id="m-p" hidden>
+      <div class="dish"><div class="t"><h3>Arroz cremoso de setas <span class="tag" title="Vegetariano">VEG</span></h3><p>Setas de la zona y queso curado.</p></div><span class="p">18,00 €</span></div>
+      <div class="dish"><div class="t"><h3>Carrillera glaseada</h3><p>Cocción lenta, puré de tubérculos y jugo reducido.</p></div><span class="p">22,00 €</span></div>
+    </div>
+    <div id="m-d" hidden>
+      <div class="dish"><div class="t"><h3>Tarta de queso al horno <span class="tag" title="Vegetariano">VEG</span></h3><p>Con fruta de temporada.</p></div><span class="p">7,50 €</span></div>
+    </div>
+    <div id="m-b" hidden>
+      <div class="dish"><div class="t"><h3>Vinos de la zona</h3><p>Consulta la carta de vinos en sala.</p></div><span class="p">desde 3,50 €</span></div>
+    </div>
+    <p class="note">Alérgenos: avísanos al reservar o en sala. Los símbolos indican opciones, no garantizan ausencia de trazas.</p>
+    <!-- EDITAR: botón "Descargar menú completo" solo cuando exista el PDF: <a class="btn btn-dk" href="/menu.pdf" download>Descargar menú completo</a> -->
+    <h3 style="margin-top:3rem">Platos del chef</h3>
+    <!-- EDITAR: fotos reales de 3 platos, con alt descriptivo y loading="lazy" -->
+    <ul class="grid3">
+      <li><div class="ph" role="img" aria-label="Foto del plato signature">Plato signature</div><h3>Plato signature</h3></li>
+      <li><div class="ph" role="img" aria-label="Foto del plato de temporada">Plato de temporada</div><h3>Plato de temporada</h3></li>
+      <li><div class="ph" role="img" aria-label="Foto del postre del chef">Postre del chef</div><h3>Postre del chef</h3></li>
+    </ul>
+  </div>
+</section>
+
+<section id="galeria" class="dk">
+  <div class="wrap fx">
+    <h2>Galería</h2>
+    <!-- EDITAR: sustituir cada .ph por <img src alt width height loading="lazy"> (WebP). El lightbox funciona con ambos -->
+    <div class="masonry">
+      <button class="g" type="button" aria-label="Ampliar foto: platos"><span class="ph" style="aspect-ratio:4/5">Plato</span></button>
+      <button class="g" type="button" aria-label="Ampliar foto: comedor"><span class="ph" style="aspect-ratio:1/1">Comedor</span></button>
+      <button class="g" type="button" aria-label="Ampliar foto: equipo"><span class="ph" style="aspect-ratio:4/3">Equipo</span></button>
+      <button class="g" type="button" aria-label="Ampliar foto: ingredientes"><span class="ph" style="aspect-ratio:3/4">Ingredientes</span></button>
+      <button class="g" type="button" aria-label="Ampliar foto: postre"><span class="ph" style="aspect-ratio:1/1">Postre</span></button>
+      <button class="g" type="button" aria-label="Ampliar foto: barra"><span class="ph" style="aspect-ratio:4/5">Barra</span></button>
+    </div>
+  </div>
+</section>
+<dialog id="lb" aria-label="Foto ampliada"><div id="lbC"></div><p style="margin:1rem 0 0"><button class="btn btn-out" type="button" id="lbX">Cerrar</button></p></dialog>
+
+<section id="reservas" class="resv">
+  <div class="wrap fx">
+    <div class="card">
+      <h2>Reserva tu mesa</h2>
+      <p>Rellena el formulario y te confirmamos por teléfono o WhatsApp.</p>
+      <p><a class="btn btn-wa" href="https://wa.me/34600000000?text=Hola%2C%20quisiera%20reservar%20una%20mesa" target="_blank" rel="noopener">Reservar por WhatsApp</a> <a class="btn btn-dk" href="tel:+34600000000">Llamar para reservar</a></p>
+      <form id="reserva" novalidate>
+        <!-- EDITAR: Web3Forms: descomentar y poner clave pública -->
+        <!-- <input type="hidden" name="access_key" value="TU_CLAVE"> -->
+        <input type="hidden" name="asunto" value="Nueva solicitud de reserva (web)">
+        <div class="hp" aria-hidden="true"><label>No rellenar<input type="text" name="botcheck" tabindex="-1" autocomplete="off"></label></div>
+        <div class="row2">
+          <div><label for="fecha">Fecha</label><input id="fecha" name="fecha" type="date"><p class="err" id="e-fecha"></p></div>
+          <div><label for="hora">Hora</label><select id="hora" name="hora"><option value="">Elige hora</option><option>13:30</option><option>14:00</option><option>14:30</option><option>15:00</option><option>20:30</option><option>21:00</option><option>21:30</option><option>22:00</option></select><p class="err" id="e-hora"></p></div>
+        </div>
+        <div><label for="personas">Número de personas</label><select id="personas" name="personas"><option value="">Elige</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option value="9+">Más de 8</option></select><p class="err" id="e-personas"></p></div>
+        <div><label for="nombre">Nombre completo</label><input id="nombre" name="nombre" autocomplete="name"><p class="err" id="e-nombre"></p></div>
+        <div class="row2">
+          <div><label for="telefono">Teléfono</label><input id="telefono" name="telefono" type="tel" autocomplete="tel" inputmode="tel"><p class="err" id="e-telefono"></p></div>
+          <div><label for="email">Email (opcional)</label><input id="email" name="email" type="email" autocomplete="email"><p class="err" id="e-email"></p></div>
+        </div>
+        <div><label for="notas">Comentarios (alergias, celebración…)</label><textarea id="notas" name="notas"></textarea></div>
+        <div><label class="check" for="acepto"><input id="acepto" name="acepto" type="checkbox"><span>He leído la <a href="/politica-privacidad.html" target="_blank" rel="noopener">política de privacidad</a> y acepto que usen mis datos para gestionar la reserva.</span></label><p class="err" id="e-acepto"></p></div>
+        <button class="btn btn-au" type="submit" id="enviar">Confirmar reservación</button>
+        <div id="estado" role="status" aria-live="polite"></div>
+      </form>
+      <p class="note">Horarios orientativos. La disponibilidad real se confirma al contestarte.</p>
+    </div>
+  </div>
+</section>
+
+<section id="opiniones">
+  <div class="wrap fx">
+    <h2 style="text-align:center">Lo que dicen de nosotros</h2>
+    <!-- EDITAR: sustituir por reseñas reales, con permiso y sin estrellas inventadas. No añadir aggregateRating sin datos reales -->
+    <div class="rev dk" style="padding:2.5rem 1.5rem" id="car">
+      <div class="slide on"><blockquote>Texto de la reseña real del cliente (2-3 líneas).</blockquote><p>Nombre del cliente</p></div>
+      <div class="slide"><blockquote>Segunda reseña real.</blockquote><p>Nombre del cliente</p></div>
+      <div class="slide"><blockquote>Tercera reseña real.</blockquote><p>Nombre del cliente</p></div>
+      <div class="rc"><button type="button" id="cp" aria-label="Reseña anterior">←</button><button type="button" id="cn" aria-label="Reseña siguiente">→</button></div>
+      <a class="btn btn-au" href="https://search.google.com/local/writereview?placeid=TU_PLACE_ID" target="_blank" rel="noopener">Déjanos tu reseña</a>
+    </div>
+  </div>
+</section>
+
+<section id="contacto" class="alt">
+  <div class="wrap fx">
+    <h2>Ubicación y contacto</h2>
+    <div class="cols" style="align-items:start">
+      <div>
+        <address>
+          <strong>Sabor Urbano</strong><br>
+          <!-- EDITAR: dirección real -->
+          Calle EJEMPLO, 1, centro<br>
+          Teléfono: <a href="tel:+34600000000">600 00 00 00</a><br>
+          WhatsApp: <a href="https://wa.me/34600000000" target="_blank" rel="noopener">600 00 00 00</a><br>
+          Email: <a href="mailto:hola@EJEMPLO.com">hola@EJEMPLO.com</a>
+        </address>
+        <!-- EDITAR: horarios reales (y actualizar el JSON-LD) -->
+        <p style="margin-top:1rem"><strong>Almuerzo:</strong> 13:30 a 16:00<br><strong>Cena:</strong> 20:30 a 23:30</p>
+        <!-- EDITAR: parking real (nombre y distancia) -->
+        <p>Aparcamiento público cercano: pregúntanos al reservar y te indicamos.</p>
+        <p>Síguenos en <a href="https://instagram.com/EJEMPLO" target="_blank" rel="noopener">Instagram</a>, <a href="https://facebook.com/EJEMPLO" target="_blank" rel="noopener">Facebook</a> o por <a href="https://wa.me/34600000000" target="_blank" rel="noopener">WhatsApp</a>.</p>
+      </div>
+      <div class="map" id="mapa"><button class="btn btn-dk" type="button" id="mapBtn">Cargar mapa</button></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fcols">
+      <div><h3>Sabor Urbano</h3><p>Cocina fusión de autor con ingredientes locales, en el centro de la ciudad.</p></div>
+      <div><h3>Enlaces</h3><ul><li><a href="#inicio">Inicio</a></li><li><a href="#menu">Menú</a></li><li><a href="#reservas">Reservaciones</a></li><li><a href="#contacto">Contacto</a></li></ul></div>
+      <div><h3>Contacto</h3><!-- EDITAR: newsletter solo con proveedor definido y casilla de consentimiento --><p><a href="tel:+34600000000">600 00 00 00</a><br><a href="mailto:hola@EJEMPLO.com">hola@EJEMPLO.com</a></p></div>
+    </div>
+    <p class="fb">© <span id="anio">2026</span> Sabor Urbano. <a href="/aviso-legal.html">Aviso legal</a> · <a href="/politica-privacidad.html">Privacidad</a> · <a href="/politica-cookies.html">Cookies</a> · Diseñado por Juan Esteban López</p>
+  </div>
+</footer>
+
+<div class="mobile-bar" aria-label="Acciones rápidas">
+  <a href="tel:+34600000000">Llamar</a>
+  <a class="w" href="https://wa.me/34600000000?text=Hola%2C%20quisiera%20reservar%20una%20mesa" target="_blank" rel="noopener">WhatsApp</a>
+  <a class="r" href="#reservas">Reservar</a>
+</div>
+
+<script>
+(function(){
+  var FORM_ENDPOINT="",WA="34600000000"; // EDITAR: endpoint (Web3Forms/Formspree). Vacío = abre WhatsApp
+  var $=function(i){return document.getElementById(i)},Q=function(s){return document.querySelectorAll(s)};
+  var nav=$('nav'),btn=$('menuBtn'),hd=$('hd');
+  function cierra(){nav.classList.remove('open');btn.setAttribute('aria-expanded','false');btn.setAttribute('aria-label','Abrir menú')}
+  btn.addEventListener('click',function(){var o=nav.classList.toggle('open');btn.setAttribute('aria-expanded',o);btn.setAttribute('aria-label',o?'Cerrar menú':'Abrir menú')});
+  Q('#menuList a').forEach(function(a){a.addEventListener('click',cierra)});
+  window.addEventListener('scroll',function(){hd.classList.toggle('min',window.scrollY>60)},{passive:true});
+  $('anio').textContent=new Date().getFullYear();
+
+  // Fade-in al hacer scroll
+  var fx=Q('.fx');
+  if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.1});fx.forEach(function(e){io.observe(e)})}else{fx.forEach(function(e){e.classList.add('in')})}
+
+  // Menú por categorías
+  Q('.tabs button').forEach(function(b){b.addEventListener('click',function(){
+    Q('.tabs button').forEach(function(x){x.setAttribute('aria-pressed',x===b);$('m-'+x.dataset.t).hidden=x!==b});
+  })});
+
+  // Lightbox
+  var lb=$('lb');
+  Q('.g').forEach(function(g){g.addEventListener('click',function(){var c=$('lbC');c.textContent='';c.appendChild(g.firstElementChild.cloneNode(true));lb.showModal()})});
+  $('lbX').addEventListener('click',function(){lb.close()});
+  lb.addEventListener('click',function(e){if(e.target===lb)lb.close()});
+
+  // Carrusel (automático, se detiene al interactuar y con movimiento reducido)
+  var sl=Q('.slide'),i=0,t=null;
+  function ir(n){sl[i].classList.remove('on');i=(n+sl.length)%sl.length;sl[i].classList.add('on')}
+  function para(){if(t){clearInterval(t);t=null}}
+  if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches){t=setInterval(function(){ir(i+1)},6000)}
+  $('cp').addEventListener('click',function(){para();ir(i-1)});
+  $('cn').addEventListener('click',function(){para();ir(i+1)});
+  $('car').addEventListener('focusin',para);
+
+  // Mapa: solo carga con clic (evita cookies de Google antes de tiempo)
+  $('mapBtn').addEventListener('click',function(){
+    var f=document.createElement('iframe');f.className='map';f.title='Mapa de Google con la ubicación de Sabor Urbano';
+    f.referrerPolicy='no-referrer-when-downgrade';
+    f.src='https://www.google.com/maps?q='+encodeURIComponent('Calle EJEMPLO 1')+'&output=embed'; // EDITAR: dirección real
+    $('mapa').replaceWith(f);
+  });
+
+  // Reserva
+  var f=$('reserva'),fecha=$('fecha'),h=new Date();
+  h.setMinutes(h.getMinutes()-h.getTimezoneOffset());fecha.min=h.toISOString().slice(0,10);
+  function setErr(id,m){var e=$('e-'+id),n=$(id);e.textContent=m||'';if(n)n.setAttribute('aria-invalid',m?'true':'false');return !m}
+  function validar(){
+    var ok=true,v=function(k){return $(k).value.trim()};
+    ok=setErr('fecha',v('fecha')?(v('fecha')<fecha.min?'Elige hoy o una fecha futura.':''):'Elige una fecha.')&&ok;
+    ok=setErr('hora',v('hora')?'':'Elige una hora.')&&ok;
+    ok=setErr('personas',v('personas')?'':'Indica cuántas personas sois.')&&ok;
+    ok=setErr('nombre',v('nombre').length<2?'Escribe tu nombre completo.':'')&&ok;
+    ok=setErr('telefono',/^[+()\d\s-]{9,16}$/.test(v('telefono'))?'':'Escribe un teléfono válido, por ejemplo 600 00 00 00.')&&ok;
+    ok=setErr('email',v('email')&&!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v('email'))?'Revisa el email: falta algo.':'')&&ok;
+    ok=setErr('acepto',$('acepto').checked?'':'Debes aceptar la política de privacidad para enviar.')&&ok;
+    return ok;
+  }
+  function estado(t,c){var e=$('estado');e.className=c;e.textContent=t}
+  f.addEventListener('submit',function(ev){
+    ev.preventDefault();
+    if(f.botcheck.value)return;
+    if(!validar()){var p=f.querySelector('[aria-invalid="true"]');if(p)p.focus();return}
+    var d=new FormData(f),g=function(k){return d.get(k)||'-'};
+    var m='Hola, quiero reservar mesa.\nNombre: '+g('nombre')+'\nTeléfono: '+g('telefono')+'\nFecha: '+g('fecha')+' a las '+g('hora')+'\nPersonas: '+g('personas')+'\nComentarios: '+g('notas');
+    if(!FORM_ENDPOINT){window.open('https://wa.me/'+WA+'?text='+encodeURIComponent(m),'_blank','noopener');estado('Se ha abierto WhatsApp con tu solicitud. Pulsa enviar allí para terminar.','ok');return}
+    var b=$('enviar');b.disabled=true;b.textContent='Enviando…';
+    fetch(FORM_ENDPOINT,{method:'POST',body:d,headers:{'Accept':'application/json'}})
+      .then(function(r){if(!r.ok)throw 0;f.reset();estado('Solicitud enviada. Te confirmaremos la reserva por teléfono o WhatsApp.','ok')})
+      .catch(function(){estado('No se ha podido enviar. Inténtalo de nuevo o reserva por WhatsApp o llamando al 600 00 00 00.','ko')})
+      .finally(function(){b.disabled=false;b.textContent='Confirmar reservación'});
+  });
+})();
+</script>
+</body>
+</html>
